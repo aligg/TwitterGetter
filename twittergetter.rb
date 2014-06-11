@@ -15,8 +15,8 @@ class TwitterGetter
 
 	def find_tweet
 		client = Twitter::REST::Client.new do |config|
-  		config.consumer_key    = '5ts2i8QqEmmZMEIJbkNR8OARJ'
-  		config.consumer_secret = 'kkpfLIodOUVrcEh4uKhtnsaeMZV9PchrLDIN4vq5B0VzlncQZq'
+  		config.consumer_key    = 'miaukeyhere'
+  		config.consumer_secret = 'miaumiausecrethere'
 	end
 
 	puts 'What would you like to search for on Twitter? [or (e)xit]'
